@@ -1,0 +1,31 @@
+
+
+
+<p>
+  This is the visible part of the text.
+  <span id="dots">...</span>
+  <span id="more" style="display: none;">
+    This is the hidden part that will be revealed when you click "Show More".
+  </span>
+</p>
+<button id="toggleBtn">Show More</button>
+
+
+
+<script>function toggleText() {
+  const dots = document.getElementById("dots");
+  const moreText = document.getElementById("more");
+  const btn = document.getElementById("toggleBtn");
+
+  if (moreText.style.display === "none") {
+    moreText.style.display = "inline";
+    dots.style.display = "none";
+    btn.textContent = "Show Less";
+  } else {
+    moreText.style.display = "none";
+    dots.style.display = "inline";
+    btn.textContent = "Show More";
+  }
+}
+  btn.addEventListener("click",toggleText)
+</script>

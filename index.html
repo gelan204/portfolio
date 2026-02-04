@@ -1,105 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gelan Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="images.jpg" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gelan Portfolio</title>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="shortcut icon" href="images.jpg">
+
 <script src="https://kit.fontawesome.com/4c999f7469.js" crossorigin="anonymous"></script>
 </head>
-<body> 
-    <header> 
-        <button id="theme-toggle">
-    <i class="fa-solid fa-moon"></i> 
-  </button>
-    <section id="welcome-section">
- <h1 class="job">web developer</h1>
-  </section>
-  <section id="projects">
-    <nav id="navbar">
-    <ul class="project-title">
-     <a href="#home" id="profile-link" class="profile" ><li>Home</li></a>
-     <a href="#skills" id="skill-link" class="profile"><li>Skills</li></a>
-     <a href="#contact" id="contact-link" class="profile"><li>Contact</li></a>
+
+<body>
+
+<header>
+<button id="theme-toggle"><i class="fa-solid fa-moon"></i></button>
+
+<nav id="navbar">
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section id="home" class="career">
+<h1>Gelan Terefe</h1>
+<h2>Frontend Developer (Intern)</h2>
+
+
+<p> I create responsive and user-friendly websites using HTML, CSS, and JavaScript.</p>
+   <p> I focus on clean UI design, efficient JavaScript functionality, and learning
+    modern frameworks like React to build scalable web applications.
+  </p>
+
+  <h3>Skills include:</h3>
+  <ul>
+    <li>Responsive layouts that work on all devices</li>
+    <li>Interactive JavaScript features and DOM manipulation</li>
+    <li>Clean, maintainable code with attention to design</li>
+    <li>Continuously learning React and modern web development tools</li>
   </ul>
-  </nav>
-    </section>
-    </header>
 
- <section class="career" id="home">
-    <h1 >
-        Front-end developer
-    </h1>
-    <p>Building a responive website that help your business grow</p>
-    <ul class="description">
-        <li class="idea">Custom website design and development</li>
-        <li class="idea">Mobile-friendly, responsive layouts</li>
-        <li class="idea">Fast loading and SEO-friendly builds</li>
-        <li class="idea">E-commerce setup and integration</li>
-        <li class="idea"> Ongoing updates and support</li>
-    </ul>
-    <img src="gelanphoto.png" alt="portfolio-photo">
- </section>
- <label><input type="button" value="Change background color" id="changebg" ></label>
-<section id="skills">
-    <div class="experiance">
-      <i class="fa-solid fa-code fa-2xl"></i>  
-     <h2>Front-end development</h2>
-<p>HTML5,CSS3,JavaScript,Bootstrap,React,SASS
-  .......Coming soon......
-</p>
- 
- <a href="http://" target="_blank" class="click" >Click</a>    
-</div>
-     <!-- <div>
-        <i class="fa-solid fa-server"></i>
-        <h2>Backend Development</h2>
-        <p>coming soon</p>
-   </div>  -->
-    <div class="experiance">
-        <i class="fa-solid fa-paintbrush fa-2xl"></i>
-        <h2>UI/UX Design</h2>
-        <p>Figma ,AdobeXD,Prototyping,Testing .......Coming soon......</p> 
-        <a href="http://" target="_blank" class="click">Click</a>
-    </div>
+<img src="gelanphoto.png" alt="photo">
 </section>
+
+<button id="changebg">Change Background</button>
+
+<section id="skills">
+<h2>Skills</h2>
+
+<div class="grid">
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+<span>Git and GitHub</span>
+<span>React (learning)</span>
+</div>
+</section>
+
 <section id="projects">
-  <h2>My Projects</h2>
-  <div class="projects-container">
+<h2>Projects</h2>
 
-    <div class="project-card">
-      <img src="project image/Screenshot 2025-10-27 045743.png" alt="Project 1">
-      <h3>Phone Validator</h3>
-      <p>Validate a phone number whether it from america or not</p>
-      <a href="https://phonevalidator-git-main-gelans-projects-c87ac1f4.vercel.app/?_vercel_share=kVtxL9Z3ecdvcyTPHw6smLXU8bkd58Yf" target="_blank" class="btn">View Project</a>
-    </div>
+<div class="projects-container">
+<div class="project-card">
+  <img src="" alt="Project 1">
+  <h3>Whether APP</h3>
+<p>Check the Whether city across globe</p>
+<p>HTML5,CSS,JavaScript API</p>
+<a href="https://whether-phi.vercel.app/" target="_blank">View</a>
+</div>
 
-    <div class="project-card">
-      <img src="project image/Screenshot 2025-10-27 045833.png" alt="Project 2">
-      <h3>Roman Number converter</h3>
-      <p>from arabic number to roman number</p>
-      <a href="https://converter-theta-ashy.vercel.app/" target="_blank" class="btn">View Project</a>
-    </div>
+<div class="project-card">
+  <img src="" alt="Project 1">
+  <h3>Interactive Graph</h3>
+<p>Shows The Data of persons </p>
+<p>HTML5,CSS,JavaScript</p>
+<a href="https://interactive-olive.vercel.app/" target="_blank">View</a>
+</div>
 
-    <div class="project-card">
-      <img src="project image/Screenshot 2025-10-27 044957.png" alt="Project 3">
-      <h3>palindrome</h3>
-      <p> A palindrome is a word, number, phrase, or sequence that reads the same backward as forward.</p>
-      <a href="https://palindrome-rust-rho.vercel.app/" target="_blank" class="btn">View Project</a>
-    </div>
 
-  </div>
+<div class="project-card">
+  <img src="" alt="Project 1">
+  <h3>Phone Validator</h3>
+<p>Checks if a phone number is valid.</p>
+<p>HTML5,CSS,JavaScript</p>
+<a href="https://phonevalidator-git-main-gelans-projects-c87ac1f4.vercel.app/" target="_blank">View</a>
+</div>
+
+<div class="project-card">
+  <img src="" alt="Project 1">
+  <h3>Roman Numeral Converter</h3>
+<p>Converts numbers to Roman numerals.</p>
+<p>HTML5,CSS,JavaScript</p>
+<a href="https://converter-theta-ashy.vercel.app/" target="_blank">View</a>
+</div>
+
+<div class="project-card">
+    <img src="" alt="Project 1">
+  <h3>Palindrome Checker</h3>
+<p>Checks if a word or number is palindrome.</p>
+<p>HTML5,CSS,JavaScript</p>
+<a href="https://palindrome-rust-rho.vercel.app/" target="_blank">View</a>
+</div>
+
+<div class="project-card">
+  <img src="" alt="Project 1">
+<h3>HighSchool </h3>
+<p>Simple counter app using DOM.</p>
+<p>HTML5,CSS,JavaScript</p>
+<a href="https://highschool-amber.vercel.app/">View</a>
+</div>
+
+</div>
 </section>
 
 <footer id="contact">
-    <p class="copyright">© 2025 Gelan Terefe. All rights reserved.</p>
-    <p class="copyright bottom">contact me:</p>
-<a href="https://www.linkedin.com/in/gelan-terefe-628567329/" target="_blank"><i class="fa-brands fa-linkedin-in"> gelanterefe</i></a>
-<a href="https://wa.me/251942200058?text=Hello%2C%20I%20saw%20your%20portfolio%20and%20wanted%20to%20connect!" target="_blank"><i class="fa-brands fa-whatsapp">+251942200058</i></a>
-<a href="https://github.com/gelan204" target="_blank"><i class="fa-brands fa-github">@gelan204</i></a>
+<h2>Contact</h2>
+
+<a href="https://www.linkedin.com/in/gelan-terefe-628567329/" target="_blank">
+<i class="fa-brands fa-linkedin"></i> LinkedIn
+</a>
+
+<a href="https://wa.me/251942200058" target="_blank">
+<i class="fa-brands fa-whatsapp"></i> WhatsApp
+</a>
+
+<a href="https://github.com/gelan204" target="_blank">
+<i class="fa-brands fa-github"></i> GitHub
+</a>
+
+<p>© 2026 Gelan Terefe</p>
 </footer>
- </form>
- <script src="gelan.js"></script>
+
+<script src="gelan.js"></script>
+
 </body>
 </html>
